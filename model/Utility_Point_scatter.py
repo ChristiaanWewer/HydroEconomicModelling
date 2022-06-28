@@ -46,8 +46,8 @@ for idx, row in df_sq.iterrows():
 # blabla
 ax.set_ylim(13.9, 14.5)
 ax.set_xlim(2.8*(10**10), 3.8*(10**10))
-ax.set_title('Status Quo Values For All Scenarios')
+ax.set_title('Optimal utility values For All Scenarios')
 ax.grid()
 plt.tight_layout()
-plt.savefig(r'{}\status_quo_points.png'.format(save_loc))
+plt.savefig(r'{}\utility_values.png'.format(save_loc))
 
